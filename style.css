@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Karla', sans-serif;
+}
+
+.container {
+        max-width: 1200px;
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+h2 {
+        font-size: 5rem;
+        color: rgb(18, 30, 39);
+}
+
+.counter__number {
+        margin-bottom: 10px;
+        font-size: 7rem;
+        font-weight: bold;
+        color: rgb(18, 155, 63);
+}
+
+button {
+        margin: 0 15px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        padding: 8px 20px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: .2s ease-in-out;
+}
+
+.inc {
+        background: rgb(194, 255, 194);
+}
+
+.inc:hover {
+        background: rgb(116, 253, 116);
+}
+
+.reset {
+        background: rgb(194, 238, 255);
+}
+
+.reset:hover {
+        background: rgb(106, 213, 255);
+}
+
+.dec {
+        background: rgb(255, 194, 194);
+}
+
+.dec:hover {
+        background: rgb(255, 81, 81);
+}
+
+
+@media (max-width: 800px) {
+        h2 {
+                font-size: 3rem;
+                text-align: center;
+        }
+        button {
+                margin: 0 5px;
+
+        }
+
+}
